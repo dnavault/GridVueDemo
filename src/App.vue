@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" width="25%">
-    <HelloWorld msg="Hello Vue in CodeSandbox!"/>
+    <GridVue title="Grid Vue" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import GridVue from "./components/GridVue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
-  }
+    GridVue,
+  },
 };
 </script>
 
